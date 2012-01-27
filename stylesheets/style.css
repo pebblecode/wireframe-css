@@ -128,40 +128,41 @@ hr {
   border-top: 1px dashed #999999;
 }
 
-/* line 68, ../sass/style.scss */
+/* @group typography */
+/* line 70, ../sass/style.scss */
 h1, h2, h3, h4 {
   color: #666666;
   line-height: 1.1em;
 }
 
-/* line 73, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 h1 {
   font-size: 3em;
 }
 
-/* line 77, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 h2 {
   font-size: 2.5em;
 }
 
-/* line 81, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 h3 {
   font-size: 1.5em;
 }
 
-/* line 85, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 h4 {
   font-size: 1em;
 }
 
-/* line 89, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 p {
   font-size: 1em;
   line-height: 1.1em;
   margin-bottom: 1em;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 a {
   color: #666666;
   margin: 0 5px;
@@ -169,7 +170,7 @@ a {
   position: relative;
   cursor: pointer;
 }
-/* line 102, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 a:before {
   content: "";
   position: absolute;
@@ -178,39 +179,39 @@ a:before {
   height: 0.1em;
   background-color: white;
 }
-/* line 111, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 a:hover {
   color: #333333;
 }
 
-/* line 121, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 b, strong {
   font-weight: bold;
   color: #999999;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 i, em, q, blockquote {
   font-style: italic;
   line-height: 1.12em;
 }
 
-/* line 131, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 i, em, q {
   margin: 0 10px 0 5px;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 blockquote {
   margin: 0 50px;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 del {
   text-decoration: line-through;
   position: relative;
 }
-/* line 143, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 del:before {
   content: "";
   position: absolute;
@@ -218,4 +219,54 @@ del:before {
   width: 100%;
   height: 0.15em;
   background-color: #666666;
+}
+
+/* @end */
+/* line 156, ../sass/style.scss */
+header, nav, section, article, footer, #wrapper {
+  padding: 1em;
+  color: white;
+}
+/* line 160, ../sass/style.scss */
+header b, header strong, nav b, nav strong, section b, section strong, article b, article strong, footer b, footer strong, #wrapper b, #wrapper strong {
+  color: #666666;
+}
+
+/* line 165, ../sass/style.scss */
+header, footer {
+  background-color: #cccccc;
+}
+
+/* line 169, ../sass/style.scss */
+nav {
+  background-color: #999999;
+}
+
+/* line 173, ../sass/style.scss */
+section, article, #wrapper {
+  color: #cccccc;
+}
+
+/* line 177, ../sass/style.scss */
+section {
+  border: 1px dotted #cccccc;
+}
+
+/* line 181, ../sass/style.scss */
+article {
+  border: 1px dashed #cccccc;
+}
+
+/* line 185, ../sass/style.scss */
+#wrapper {
+  border: 1px dashed #333333;
+}
+
+/* line 189, ../sass/style.scss */
+img {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border: none;
+  outline: none;
 }

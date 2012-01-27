@@ -65,6 +65,8 @@ hr{
 	border-top: 1px dashed $grey-40;
 }
 
+/* @group typography */
+
 h1, h2, h3, h4{
 	color: $grey-60;
 	line-height: 1.1em;
@@ -149,11 +151,48 @@ del{
 		background-color: $grey-60;
 	}
 }
+/* @end */
 
+header, nav, section, article, footer, #wrapper{
+	padding: 1em;
+	color: white;
+	
+	&b, strong{
+		color: $grey-60;
+	}
+}
 
+header, footer{
+	background-color: $grey-20;
+}
 
+nav{
+	background-color: $grey-40;
+}
 
+section, article, #wrapper{
+	color: $grey-20;
+}
 
+section{
+	border: 1px dotted $grey-20;
+}
+
+article{
+	border: 1px dashed $grey-20;
+}
+
+#wrapper{
+	border: 1px dashed $grey-80;
+}
+
+img{
+	height: 100px;
+	width: 100px;
+	background-color: white;
+	border: none;
+	outline: none;
+}
 
 
 
