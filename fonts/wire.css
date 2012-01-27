@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'wire';
+    src: url('wire.eot');
+    src: url('wire.eot?#iefix') format('embedded-opentype'),
+         url('wire.woff') format('woff'),
+         url('wire.ttf') format('truetype'),
+         url('wire.svg#wireframeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
