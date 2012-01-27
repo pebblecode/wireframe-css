@@ -186,19 +186,21 @@ article{
 	border: 1px dashed $grey-80;
 }
 
-img{
-	height: 100px;
-	width: 100px;
-	background-color: white;
-	border: none;
-	outline: none;
+.img{
+	height: 200px;
+	width: 200px;
+	background:-webkit-linear-gradient(45deg, transparent 49.5%, white 49.5%, white 50.5%, transparent 50.5%, transparent), -webkit-linear-gradient(-45deg, transparent 49.5%, white 49.5%, white 50.5%, transparent 50.5%, transparent);
+	position: relative;
 }
 
-
-
-
-
-
+.img:before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: $grey-20;
+	z-index: -1;
+}
 
 
 

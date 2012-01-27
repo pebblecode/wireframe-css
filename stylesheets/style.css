@@ -263,10 +263,19 @@ article {
 }
 
 /* line 189, ../sass/style.scss */
-img {
-  height: 100px;
-  width: 100px;
-  background-color: white;
-  border: none;
-  outline: none;
+.img {
+  height: 200px;
+  width: 200px;
+  background: -webkit-linear-gradient(45deg, transparent 49.5%, white 49.5%, white 50.5%, transparent 50.5%, transparent), -webkit-linear-gradient(-45deg, transparent 49.5%, white 49.5%, white 50.5%, transparent 50.5%, transparent);
+  position: relative;
+}
+
+/* line 196, ../sass/style.scss */
+.img:before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #cccccc;
+  z-index: -1;
 }
