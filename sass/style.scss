@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+}
+
+#banner{
+	margin-bottom: 2em;
+}
+
+#featured{
+	margin-bottom: 2em;
+	padding: 0;
+	width: 100%;
+	
+	&article{
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+}
+
+hgroup{
+	display: inline-block;
+	width: 30%;
+	background: red;
+	margin: 2%;
+}
+
+#featured-content{
+	background: blue;
+	vertical-align: top;
+	display: inline-block;
+	width: 60%;
+	margin: 2% 2% 2% 4%;
+}

@@ -11,65 +11,98 @@
   <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
   </head>
 <body>
-
-	<div id="color-wrap">
-		<div class="colors grey-20 see-text">grey-20</div>
-	  <div class="colors grey-40 see-text">grey-40</div>
-	  <div class="colors grey-60 see-text">grey-60</div>
-	  <div class="colors grey-80 see-text">grey-80</div>
-	  <div class="colors black see-text">black</div>  
-  </div>
-  
-	<hr />
-  
-  <h1 >Heading One</h1>
-  <h2>Heading Two</h2>
-  <h3>Heading Three</h3>
-  <h4>Heading Four</h4>
-  
-  <hr />
-  
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. </p>
-  
-  <p>Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </p>
-  
-  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante.</p>
-    
-  <hr />
-  
-  <p>Curabitur sodales ligula in libero. <a>Sed dignissim</a> lacinia nunc. <b>Curabitur tortor.</b> Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. <i>Proin ut ligula vel nunc egestas porttitor.</i> Morbi lectus <a>risus, iaculis</a> vel, suscipit quis, luctus non, massa.<em> Fusce ac turpis quis ligula lacinia aliquet. <strong>Mauris ipsum. Nulla metus metus,</strong> ullamcorper vel, tincidunt sed, euismod in, nibh.</em> Quisque volutpat condimentum velit. </p>
-  
-  <hr />
-  
-  <a href="#">I'm a Link</a>
-  
-  <hr />
-  
-  <b>I'm bold</b>
-  
-  <hr />
-  
-  <strong>I'm Strong</strong>
-  
-  <hr />
-  
-  <i>I'm Italic</i>
-  
-  <hr />
-  
-  <em>I've got Emphasis</em>
-  
-  <hr />
-  
-  <del>I've been Deleted</del>
-  
-  <hr />
-  
-  <q>I'm a short Quote</q>
-  
-  <hr />
-  
-  <blockquote>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus.</blockquote>
-  
+	<div id="wrapper" class="see-text">
+		
+		<header id="banner">
+			<h1>Woop! Woop! wire css demo</h1>
+			<nav>
+				<ul>
+					<li><a href="#">Page one</a></li>
+					<li><a href="#">Page two</a></li>
+					<li><a href="#">Page three</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div style="background: #eee; width: 500px;">
+			<div style="background: red; width: 60%; display: inline-block; margin: 0;">50%</div>
+			<div style="background: blue; width: 30%; display: inline-block;" mar
+			>50%</div>
+		
+		</div>
+		
+		<aside id="featured">
+			<article>
+				<hgroup>
+					<h1>First heading</h1>
+					<h2>Second heading (it's a little longer)</h2>
+				</hgroup>
+				<div id="featured-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+					<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
+				</div>
+			</article>
+		</aside>
+		
+		<section>
+			<ol>
+				<li>
+					<article>
+						<header>
+							<h3>this is an item</h3>
+						</header>
+						<div class="content">
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p>
+						</div>
+						<footer>
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
+						</footer>
+					</article>
+				</li>
+				<li>
+					<article>
+						<header>
+							<h3>this is an item</h3>
+						</header>
+						<div class="content">
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p>
+						</div>
+						<footer>
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
+						</footer>
+					</article>
+				</li>
+				<li>
+					<article>
+						<header>
+							<h3>this is an item</h3>
+						</header>
+						<div class="content">
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p>
+						</div>
+						<footer>
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
+						</footer>
+					</article>
+				</li>
+				<li>
+					<article>
+						<header>
+							<h3>this is an item</h3>
+						</header>
+						<div class="content">
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem.</p>
+						</div>
+						<footer>
+							<p>Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
+						</footer>
+					</article>
+				</li>
+			</ol>
+		</section>
+	
+		<footer><p>Curabitur tortor. Pellentesque nibh. Aenean quam.</p></footer>
+	
+	</div>
 </body>
 </html>

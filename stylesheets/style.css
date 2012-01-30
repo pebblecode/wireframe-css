@@ -1,0 +1,48 @@
+/* line 1, ../sass/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, ../sass/style.scss */
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+}
+
+/* line 13, ../sass/style.scss */
+#banner {
+  margin-bottom: 2em;
+}
+
+/* line 17, ../sass/style.scss */
+#featured {
+  margin-bottom: 2em;
+  padding: 0;
+  width: 100%;
+}
+/* line 22, ../sass/style.scss */
+#featured article {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* line 29, ../sass/style.scss */
+hgroup {
+  display: inline-block;
+  width: 30%;
+  background: red;
+  margin: 2%;
+}
+
+/* line 36, ../sass/style.scss */
+#featured-content {
+  background: blue;
+  vertical-align: top;
+  display: inline-block;
+  width: 60%;
+  margin: 2% 2% 2% 4%;
+}
